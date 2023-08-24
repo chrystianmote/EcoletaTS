@@ -1,7 +1,7 @@
 # EcoletaTS
-Criando um Projeto React com Template em TypeScript + Knex e MySQL
+Criando um Projeto React com Template em TypeScript + Knex
 
-MONTANDO A ESTRUTURA DO SERVER NODE.JS COM TYPESCRIPT USANDO SQLITE.
+MONTANDO A ESTRUTURA DO SERVER NODE.JS COM TYPESCRIPT USANDO SQLITE/MySQL.
 -------------------------------------------------------------------------
 
 1º Com o Powershell como admin: Instalar Chocolatey (gerenciador de pacotes do Windows);
@@ -65,6 +65,7 @@ pra entender que a requisição POST do cliente é do tipo JSON.
 22º Utilização do Knex.JS para uso de comunicações em JS/BD.
 Terminal dentro VScode nome do projeto\server: "npm install knex" e 
 após o tipo do banco utilizado: "npm install sqlite3";
+ou "npm install mysql" (MySQL 5.7) ou "npm install mysql2" (MySQL 8);
 
 23º Tabelas:
 points 		(image,name,email,whatsapp,latitude,longitude city e uf)
